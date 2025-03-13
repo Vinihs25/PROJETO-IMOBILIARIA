@@ -1,3 +1,5 @@
+/*paleta de cores: https://paletadecores.com/paleta/000000/001f36/1c5560/79ae92/fbffcd/ */
+
 header{
     padding: 25px;
     background-color: #001f36;
@@ -29,11 +31,65 @@ font size: 36px;
     color: #fbffcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*----------------------------------------------------------------------*/
 .sessao-01{
     background-image: url(imagens/casapiscina.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding: 200px;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.sessao-01 button{
+      background-color: rgba(0, 0, 0, 0.397);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #fbffcd;
+      width: 20%;
+      height: 100px;
+      font-size: 20px;
+}
+/*----------------------------------------------------------------------*/
+.sessao-02{
+    background-color: #fbffcd;
+    padding: 180px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    display: flex;
+}
+
+.sessao-02 div{
+width: 365px;
+height: 415px;
+background-color: #79ae92;
+}
+
+
+
+/*----------------------------------------------------------------------*/
+.sessao-03 {
+    padding: 160px;
+    background-color: #1c5560;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+/*----------------------------------------------------------------------*/
+.sessao-04 {
+    padding: 160px;
+    background-color: #79ae92;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
 }
