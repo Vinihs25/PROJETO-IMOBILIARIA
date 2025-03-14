@@ -51,13 +51,13 @@ font size: 36px;
       cursor: pointer;
       color: #fbffcd;
       width: 20%;
-      height: 100px;
+      height: 45px;
       font-size: 20px;
 }
 /*----------------------------------------------------------------------*/
 .sessao-02{
     background-color: #fbffcd;
-    padding: 180px;
+    padding: 150px;
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
@@ -67,29 +67,83 @@ font size: 36px;
 .sessao-02 div{
 width: 365px;
 height: 415px;
-background-color: #79ae92;
+background-color: #000000;
 }
 
 
 
 /*----------------------------------------------------------------------*/
 .sessao-03 {
-    padding: 160px;
-    background-color: #1c5560;
+    padding: 150px;
+    background: linear-gradient(180deg, #1c5560, #001f36);
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
     align-items: center;
 }
 
+.sessao-03 div img {
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+}
 
+.sessao-03 div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fbffcd;
+    font-weight: 550;
+    
+    
+}
 
 /*----------------------------------------------------------------------*/
 .sessao-04 {
-    padding: 160px;
-    background-color: #79ae92;
+    padding: 150px;
+     background: linear-gradient(180deg, #001f36, #1c5560);
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
     align-items: center;
 }
+
+.sessao-04 iframe{
+    border-radius: 15px;
+}
+
+.sessao-04 p{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-weight: 550;
+    color: #fbffcd;
+       
+}
+
+
+footer{
+  background: linear-gradient(180deg, #1c5560, #001f36);
+    padding: 30px;
+    color: #fbffcd;
+    text-align: center;
+    line-height: 25px; 
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
