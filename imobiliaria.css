@@ -57,6 +57,7 @@ font size: 36px;
 /*----------------------------------------------------------------------*/
 .sessao-02{
     background-color: #fbffcd;
+    background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560);
     padding: 150px;
     align-items: center;
     justify-content: space-evenly;
@@ -67,9 +68,58 @@ font size: 36px;
 .sessao-02 div{
 width: 365px;
 height: 415px;
-background-color: #000000;
+background-color: #001f3679;
 }
 
+.div-01 img{
+    width: 350px;
+    height: 215px;
+}
+.div-01 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-01 ul{
+    gap: 45px;
+    list-style: none;
+}
+/*---------------------------------*/
+.div-02 img{
+    width: 350px;
+    height: 215px;
+}
+.div-02 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-02 ul{
+    gap: 45px;
+    list-style: none;
+}
+
+.div-03 img{
+    width: 350px;
+    height: 215px;
+}
+.div-03 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-03 ul{
+    gap: 45px;
+    list-style: none;
+}
 
 
 /*----------------------------------------------------------------------*/
@@ -121,7 +171,7 @@ background-color: #000000;
 
 
 footer{
-  background: linear-gradient(180deg, #1c5560, #001f36);
+  background: linear-gradient(180deg, #1c5560, #001f36,  #000000);
     padding: 30px;
     color: #fbffcd;
     text-align: center;
