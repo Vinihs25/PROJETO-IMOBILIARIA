@@ -53,6 +53,12 @@ font size: 36px;
       width: 20%;
       height: 45px;
       font-size: 20px;
+      
+}
+
+.sessao-01 button a{
+text-decoration: none;
+color: #fbffcd;
 }
 /*----------------------------------------------------------------------*/
 .sessao-02{
@@ -63,6 +69,7 @@ font size: 36px;
     justify-content: space-evenly;
     gap: 15px;
     display: flex;
+    border-radius: 10px;
 }
 
 .sessao-02 div{
