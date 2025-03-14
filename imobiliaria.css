@@ -1,5 +1,5 @@
 /*paleta de cores: https://paletadecores.com/paleta/000000/001f36/1c5560/79ae92/fbffcd/ */
-
+/*CABEÇALHO*/
 header{
     padding: 25px;
     background-color: #001f36;
@@ -32,6 +32,7 @@ font size: 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*----------------------------------------------------------------------*/
+/*SESSÃO 1*/
 .sessao-01{
     background-image: url(imagens/casapiscina.jpg);
     background-size: cover;
@@ -44,7 +45,7 @@ font size: 36px;
 
 .sessao-01 button{
       background-color: rgba(0, 0, 0, 0.397);
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
       padding: 10px;
       border-radius: 10px;
       text-decoration: none;
@@ -61,23 +62,24 @@ text-decoration: none;
 color: #fbffcd;
 }
 /*----------------------------------------------------------------------*/
+/*SESSÃO 02*/
 .sessao-02{
-    background-color: #fbffcd;
-    background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560);
+    
+    background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
     padding: 150px;
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
     display: flex;
-    border-radius: 10px;
+  
 }
 
-.sessao-02 div{
+.sessao-02 div{ 
 width: 365px;
 height: 415px;
 background-color: #001f3679;
 }
-
+/*DIV 01*/
 .div-01 img{
     width: 350px;
     height: 215px;
@@ -95,6 +97,7 @@ background-color: #001f3679;
     list-style: none;
 }
 /*---------------------------------*/
+/*DIV 02*/
 .div-02 img{
     width: 350px;
     height: 215px;
@@ -110,7 +113,7 @@ background-color: #001f3679;
     gap: 45px;
     list-style: none;
 }
-
+ /*DIV 03*/
 .div-03 img{
     width: 350px;
     height: 215px;
@@ -130,9 +133,10 @@ background-color: #001f3679;
 
 
 /*----------------------------------------------------------------------*/
+/*SESSÃO 3*/
 .sessao-03 {
     padding: 150px;
-    background: linear-gradient(180deg, #1c5560, #001f36);
+    background: linear-gradient(180deg, #1c5560, #001f36); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
@@ -142,7 +146,7 @@ background-color: #001f3679;
 .sessao-03 div img {
     width: 400px;
     height: 400px;
-    border-radius: 12px;
+   
 }
 
 .sessao-03 div p{
@@ -156,7 +160,7 @@ background-color: #001f3679;
 /*----------------------------------------------------------------------*/
 .sessao-04 {
     padding: 150px;
-     background: linear-gradient(180deg, #001f36, #1c5560);
+    background: linear-gradient(180deg, #001f36, #1c5560); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
@@ -178,11 +182,11 @@ background-color: #001f3679;
 
 
 footer{
-  background: linear-gradient(180deg, #1c5560, #001f36,  #000000);
+  background: linear-gradient(180deg, #1c5560, #001f36,  #000000); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
     padding: 30px;
     color: #fbffcd;
     text-align: center;
-    line-height: 25px; 
+    line-height: 26px; 
 }
 
 footer img{
