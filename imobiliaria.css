@@ -1,4 +1,12 @@
 /*paleta de cores: https://paletadecores.com/paleta/000000/001f36/1c5560/79ae92/fbffcd/ */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
 /*CABEÇALHO*/
 header{
     padding: 25px;
@@ -192,6 +200,14 @@ footer{
 footer img{
     width: 40px;
     height: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fbffcd;
+    
 }
 
 
