@@ -209,15 +209,89 @@ footer a{
     color: #fbffcd;
     
 }
+/* PAGINA 2 --------------------------------------------------------------------------------------------------------- */
 
 
 
 
+.div-04 img{
+    width: 350px;
+    height: 215px;
+}
+.div-04 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/*-------------------------------------------*/
 
+.div-05 img{
+    width: 350px;
+    height: 215px;
+}
+.div-05 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/*-----------------------------------------*/
+.div-06 img{
+    width: 350px;
+    height: 215px;
+}
+.div-06 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/*------------------------------------------*/
 
+.div-07 img{
+    width: 350px;
+    height: 215px;
+}
+.div-07 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--------------------------------------*/
+
+.div-08 img{
+    width: 350px;
+    height: 215px;
+}
+.div-08 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*-----------------------------------------*/
+
+.div-09 img{
+    width: 350px;
+    height: 215px;
+}
+.div-09 ul li{
+    font-size: 23px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 400;/*Peso da fonte*/
+    line-height: 35px; /*Distancia entre as linhas */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
