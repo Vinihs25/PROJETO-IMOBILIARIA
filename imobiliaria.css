@@ -209,11 +209,39 @@ footer a{
     color: #fbffcd;
     
 }
+
+
+
+
+
 /* PAGINA 2 --------------------------------------------------------------------------------------------------------- */
 
 
 
 
+
+
+*/*sessao 05*/
+
+.sessao-05{
+    
+    background: linear-gradient(180deg, #1c5560,#1c5560, #fbffcd); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
+    padding: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    display: flex;
+  
+}
+
+.sessao-05 div{ 
+width: 365px;
+height: 415px;
+background-color: #001f3679;
+}
+
+/*-------------------------------------------*/
+/* DIVS SESSAO 05*/
 .div-04 img{
     width: 350px;
     height: 215px;
@@ -254,7 +282,26 @@ footer a{
 }
 
 /*------------------------------------------*/
+/*SESSÃO 6*/
 
+.sessao-06{
+    
+    background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
+    padding: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    display: flex;
+  
+}
+
+.sessao-06 div{ 
+width: 365px;
+height: 415px;
+background-color: #001f3679;
+}
+
+/*DIVS SESSAO 6*/
 .div-07 img{
     width: 350px;
     height: 215px;
