@@ -217,8 +217,22 @@ footer a{
 /* PAGINA 2 --------------------------------------------------------------------------------------------------------- */
 
 
-
-
+/*Sessão barra de pesquisa*/
+.sessao-cabecalho{
+    background-image: url(imagens/casapiscina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.imoveis {
+    display: flex;
+}
+   
 
 
 */*sessao 05*/
@@ -226,12 +240,15 @@ footer a{
 .sessao-05{
     
     background: linear-gradient(180deg, #1c5560,#1c5560, #fbffcd); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
-    padding: 150px;
+    padding: 120px;
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
     display: flex;
   
+}
+.sessao-05 i{
+    color: yellow;
 }
 
 .sessao-05 div{ 
@@ -243,7 +260,7 @@ background-color: #001f3679;
 /*-------------------------------------------*/
 /* DIVS SESSAO 05*/
 .div-04 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-04 ul li{
@@ -254,10 +271,14 @@ background-color: #001f3679;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.div-04 ul{
+    margin-left: 30px;
+
+}
 /*-------------------------------------------*/
 
 .div-05 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-05 ul li{
@@ -266,11 +287,12 @@ background-color: #001f3679;
     font-weight: 400;/*Peso da fonte*/
     line-height: 35px; /*Distancia entre as linhas */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 /*-----------------------------------------*/
 .div-06 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-06 ul li{
@@ -287,12 +309,16 @@ background-color: #001f3679;
 .sessao-06{
     
     background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
-    padding: 150px;
+    padding: 120px;
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
     display: flex;
   
+}
+
+.sessao-06 i{
+    color: yellow;
 }
 
 .sessao-06 div{ 
@@ -303,7 +329,7 @@ background-color: #001f3679;
 
 /*DIVS SESSAO 6*/
 .div-07 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-07 ul li{
@@ -316,7 +342,7 @@ background-color: #001f3679;
 /*--------------------------------------*/
 
 .div-08 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-08 ul li{
@@ -329,7 +355,7 @@ background-color: #001f3679;
 /*-----------------------------------------*/
 
 .div-09 img{
-    width: 350px;
+    width: 360px;
     height: 215px;
 }
 .div-09 ul li{
@@ -339,6 +365,8 @@ background-color: #001f3679;
     line-height: 35px; /*Distancia entre as linhas */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 
 
 
