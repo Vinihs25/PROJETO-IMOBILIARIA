@@ -39,6 +39,10 @@ font size: 36px;
     color: #fbffcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.cadastro a i {
+    color: aliceblue
+}
 /*----------------------------------------------------------------------*/
 /*SESSÃO 1*/
 .sessao-01{
@@ -125,6 +129,7 @@ background-color: #001f3679;
 .div-03 img{
     width: 350px;
     height: 215px;
+    
 }
 .div-03 ul li{
     font-size: 23px;/*Tamanho da letra*/
@@ -154,7 +159,12 @@ background-color: #001f3679;
 .sessao-03 div img {
     width: 400px;
     height: 400px;
-   
+
+}
+
+.sessao-03 div img:hover{
+     box-shadow: 10px 10px 20px black;
+    
 }
 
 .sessao-03 div p{
@@ -177,6 +187,7 @@ background-color: #001f3679;
 
 .sessao-04 iframe{
     border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .sessao-04 p{
@@ -243,7 +254,7 @@ footer a{
 */*sessao 05*/
 
 
-  
+
    
 
     .section-pg2 {
@@ -254,6 +265,14 @@ footer a{
         background: linear-gradient(180deg, #1c5560,#1c5560, #fbffcd); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
     }
 
+.section-pg2 div h2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+    
+}
     
     
     
@@ -299,9 +318,14 @@ footer a{
         gap: 30px;
     
     }
+.div-pai div i{
+    justify-content: center;
+    display: inline-flex;
+}
     
     .fa-star {
         color: rgb(228, 187, 5);
+        
     }
 
 
