@@ -217,6 +217,11 @@ footer a{
 /* PAGINA 2 --------------------------------------------------------------------------------------------------------- */
 
 
+.header-lista ul li:hover {
+    box-shadow: 20px 20px 30px black;
+        transition: 0.8s;
+}
+
 /*Sessão barra de pesquisa*/
 .sessao-cabecalho{
     background-image: url(imagens/casapiscina.jpg);
@@ -237,141 +242,67 @@ footer a{
 
 */*sessao 05*/
 
-.sessao-05{
-    
-    background: linear-gradient(180deg, #1c5560,#1c5560, #fbffcd); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
-    padding: 120px;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 15px;
-    display: flex;
+
   
-}
-.sessao-05 i{
-    color: yellow;
-}
+   
 
-.sessao-05 div{ 
-width: 365px;
-height: 415px;
-background-color: #001f3679;
-}
+    .section-pg2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 130px;
+        background: linear-gradient(180deg, #1c5560,#1c5560, #fbffcd); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
+    }
 
-.div-pai div:hover{
-    box-shadow: 20px 20px 30px black;
-    transition: 0.8s;
     
-}
-/*-------------------------------------------*/
-/* DIVS SESSAO 05*/
-.div-04 img{
-    width: 360px;
-    height: 215px;
-}
-.div-04 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.div-04 ul{
-    margin-left: 30px;
-
-}
-/*-------------------------------------------*/
-
-.div-05 img{
-    width: 360px;
-    height: 215px;
-}
-.div-05 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-}
-
-/*-----------------------------------------*/
-.div-06 img{
-    width: 360px;
-    height: 215px;
-}
-.div-06 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/*------------------------------------------*/
-/*SESSÃO 6*/
-
-.sessao-06{
     
-    background: linear-gradient(180deg,  #fbffcd,  #fbffcd,  #1c5560); /*GRADIENTE SITE VAI MUDANDO DE COR GRADUALMENTE*/
-    padding: 120px;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 15px;
-    display: flex;
-  
-}
-
-.sessao-06 i{
-    color: yellow;
-}
-
-.sessao-06 div{ 
-width: 365px;
-height: 415px;
-background-color: #001f3679;
-}
-
-/*DIVS SESSAO 6*/
-.div-07 img{
-    width: 360px;
-    height: 215px;
-}
-.div-07 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/*--------------------------------------*/
-
-.div-08 img{
-    width: 360px;
-    height: 215px;
-}
-.div-08 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/*-----------------------------------------*/
-
-.div-09 img{
-    width: 360px;
-    height: 215px;
-}
-.div-09 ul li{
-    font-size: 23px;/*Tamanho da letra*/
-    color: white;/*Cor da letra*/
-    font-weight: 400;/*Peso da fonte*/
-    line-height: 35px; /*Distancia entre as linhas */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
+    .img-caixa {
+        width: 150px;
+    }
+    
+    
+    
+    .div-pai div {
+        width: 400px;
+        height: 500px;
+        background-color:#1c556054;
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px black;
+        /*Responsável pela sombra das caixas (1 valor cuida da sombra lateral, 2 valor sombra inferior, 3 valor peso da cor da sombra.)*/
+    }
+    
+    
+    .div-pai div:hover {
+        box-shadow: 20px 20px 30px black;
+        transition: 0.8s;
+    }
+    
+    
+    .paragarafo-div {
+        color: rgb(255, 252, 252);
+        font-size: 27px;
+        font-weight: 800;
+        margin: 15px;
+        
+        /*Está cuidando de todos os lados da margem*/
+    }
+    
+    .div-pai div img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .div-pai {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    
+    }
+    
+    .fa-star {
+        color: rgb(228, 187, 5);
+    }
 
 
 
