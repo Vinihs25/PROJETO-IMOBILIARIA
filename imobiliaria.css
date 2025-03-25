@@ -257,6 +257,11 @@ height: 415px;
 background-color: #001f3679;
 }
 
+.div-pai div:hover{
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+    
+}
 /*-------------------------------------------*/
 /* DIVS SESSAO 05*/
 .div-04 img{
