@@ -1,14 +1,87 @@
-.div-form {
-    width: 300px;
-    height: 400px;
-   background-color: #1c5560;
-    border-radius: 5px;
-    justify-content: center;
-    display: flex;
+/* * ESTILIZAÇÃO GLOBAL*/
+* {
+   margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
-.input-email{
+body{
+    background-color: #79ae92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     
-    border: 2px solid red;
-    border-radius: 3px;
 }
+
+
+/*ESTILIZANDO A DIV QUE CONTEM O FORMULARIO*/
+
+.div-form{
+    background-color: #fbffcd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    height: 380px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    margin-bottom: 5px; /*MARGEM INFERIOR*/
+    font-weight: bold; /*Largura da fonte*/
+}
+
+.dombosco{
+    padding: 10px; /*ESPAÇAMENTO INTERNO*/
+    margin-bottom: 15px;/*ESPAÇAMETO INFERIOR DOS INPUT*/
+    font-size: 16px; /*TAMANHO DA LETRA*/
+    border-radius: 5px;/*BORDAS ARREDONDADAS*/
+    border: 2px solid #001f36;/*INSERINDO BORDAS NO INPUT*/
+  
+}
+
+/*input[type="email"]. input[type="password"]{
+    
+} */
+
+.btn-form{
+    background-color: #1c5560; /*COR DE FUNDO BTN*/
+    color: white;/*COR DA LETRA*/
+    padding: 10px; /*ESPAÇAMENTO INTERNO*/
+    border: none;/*BORDA = NENHUMA*/
+    border-radius: 5px; /*ARRENDONDAMENTO DO BTN*/
+    font-size: 16; /*TAMANHO DA LETRA*/
+    cursor: pointer; /*TIPO DE CURSOS DO MOUSE*/
+}
+
+.btn-form:hover {
+    background-color: #001f36; /*background ao passar o mouse*/
+    transition: 0,8s; /*transição*/
+}
+
+h2, p{
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
