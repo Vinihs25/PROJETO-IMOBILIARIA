@@ -34,3 +34,16 @@ header button:hover{
     border-radius: 5px
     
 }
+
+.section-01 {
+    background: linear-gradient(90deg, rgba(0,30,119,0.6783088235294117) 0%, rgba(0,11,208,0.4206057422969187) 35%), url(img/5-sapatos-masculinos-que-voc%C3%AA-deve-ter-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: center;
+    
+    padding: 250px;
+    
+    
+    
+    
+}
